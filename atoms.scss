@@ -1,0 +1,49 @@
+@import 'variables';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: $color_white;
+  background-color: $color_9;
+  margin: 0;
+  padding-top: $header_padding_topBottom;
+  padding-bottom: $header_padding_topBottom;
+  padding-left: $header_padding_leftRight;
+  padding-right: $header_padding_leftRight;
+  font-size: $font_size_header;
+  font-family: $heading_font;
+  width: 80%;
+}
+
+h3 {
+  color: $color_white;
+  background-color: $color_4;
+  margin: 0;
+  padding-top: $subHeader_padding_topBottom;
+  padding-bottom: $subHeader_padding_topBottom;
+  padding-left: $subHeader_padding_leftRight;
+  padding-right: $subHeader_padding_leftRight;
+  font-size: $font_size_subHeader;
+  font-family: $sub_heading_font;
+  width: 60%;
+}
+
+p{
+  color: $color_white;
+  background-color: $color_2;
+  font-size: $font_size_body;
+  font-family: $body_font;
+  margin: 0;
+  width: 75%;
+  padding-bottom:$p_padding_topBottom;
+  padding-top: $p_padding_topBottom;
+  padding-left: $p_padding_leftRight;
+  padding-right: $p_padding_leftRight;
+}
+
+p>a{
+  color: $color_white;
+}
