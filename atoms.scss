@@ -30,3 +30,20 @@ h3 {
   font-family: $sub_heading_font;
   width: 60%;
 }
+
+p{
+  color: $color_white;
+  background-color: $color_2;
+  font-size: $font_size_body;
+  font-family: $body_font;
+  margin: 0;
+  width: 75%;
+  padding-bottom:$p_padding_topBottom;
+  padding-top: $p_padding_topBottom;
+  padding-left: $p_padding_leftRight;
+  padding-right: $p_padding_leftRight;
+}
+
+p>a{
+  color: $color_white;
+}
