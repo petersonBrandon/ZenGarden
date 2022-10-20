@@ -84,7 +84,18 @@ div[role=article] h3 {
 }
 div[role=article] p {
   grid-column: 1/span 3;
-  padding: 3rem;
+  padding: 2rem;
+}
+
+.requirements p {
+  grid-column: span 2 !important;
+  border: solid 10px #76C8B1;
+  border-top: solid 20px #76C8B1;
+  border-bottom: solid 20px #76C8B1;
+}
+.requirements p:nth-child(5) {
+  grid-column: 5/span 1 !important;
+  grid-row: 2/span 2;
 }
 
 /*# sourceMappingURL=style.css.map */
