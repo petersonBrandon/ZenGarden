@@ -56,6 +56,14 @@ p > a {
   color: white;
 }
 
+@media (max-width: 1550px) {
+  body {
+    font-size: 0.5rem;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+}
 header {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
@@ -88,14 +96,34 @@ div[role=article] p {
 }
 
 .requirements p {
-  grid-column: span 2 !important;
+  grid-column: span 10 !important;
   border: solid 10px #76C8B1;
   border-top: solid 20px #76C8B1;
   border-bottom: solid 20px #76C8B1;
 }
-.requirements p:nth-child(5) {
-  grid-column: 5/span 1 !important;
-  grid-row: 2/span 2;
+
+@media (max-width: 1550px) {
+  header {
+    background: none;
+  }
+  header h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  div[role=article] {
+    background: none;
+  }
+  div[role=article] h3 {
+    grid-column: 1/span 10;
+    font-size: 2rem;
+  }
+  div[role=article] p {
+    grid-column: 1/span 10;
+    font-size: 1rem;
+  }
+  .requirements p {
+    grid-column: 1/span 10;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
