@@ -1,9 +1,8 @@
-@import 'variables';
+@import "variables";
 
 body {
   margin: 0;
   padding: 0;
-  // background-color: $color_7;
 }
 
 h1 {
@@ -35,18 +34,28 @@ h3 {
   font-family: $sub_heading_font;
 }
 
-p{
+p {
   color: $color_white;
   background-color: $color_2;
   font-size: $font_size_body;
   font-family: $body_font;
   margin: 0;
-  padding-bottom:$p_padding_topBottom;
+  padding-bottom: $p_padding_topBottom;
   padding-top: $p_padding_topBottom;
   padding-left: $p_padding_leftRight;
   padding-right: $p_padding_leftRight;
 }
 
-p>a{
+p > a {
   color: $color_white;
+}
+
+@media (max-width: 1550px) {
+  body {
+    font-size: 0.5rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
 }
