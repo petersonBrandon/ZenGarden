@@ -52,8 +52,65 @@ p {
   padding-right: 2rem;
 }
 
+footer {
+  color: white;
+  background-color: #52A1A3;
+  font-size: 1.25rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 p > a {
   color: white;
+}
+
+a:link {
+  color: white;
+}
+
+ul li {
+  list-style: none;
+}
+
+.design-archives ul {
+  color: white;
+  background-color: #52A1A3;
+  font-size: 1.25rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.design-selection {
+  color: white;
+  background-color: #52A1A3;
+  font-size: 1.25rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  list-style: none;
+}
+
+.zen-resources {
+  color: white;
+  background-color: #52A1A3;
+  font-size: 1.25rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 @media (max-width: 1550px) {
